@@ -1,0 +1,20 @@
+@media (min-width: 768px ) and (max-width: 998px) { 
+    header{
+        width: 100%;
+        nav {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            ul {
+                display: none;
+            }
+            i {
+                display: block;
+                padding-top: 20px;
+                color: white;
+                font-size: 30px;
+            }
+        }
+    }
+}
